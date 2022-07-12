@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main {
+    min-height: 100vh;
+    background: linear-gradient(to right bottom, #d870e6, #c79ed1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.glass {
+    background: white;
+    height: 80%;
+    width: 70%;
+    background: linear-gradient(to right top, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+    border-radius: 2rem;
+    position: fixed;
+    backdrop-filter: blur(2rem);
+    z-index: 3;
+    display: flex;
+}
+
+.circle1 {
+    background: white;
+    background: linear-gradient(to right top, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.1));
+    height: 20rem;
+    width: 20rem;
+    position: absolute;
+    top: 5%;
+    left: 12%;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.circle2 {
+    background: white;
+    background: linear-gradient(to right top, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.1));
+    height: 20rem;
+    width: 20rem;
+    position: absolute;
+    bottom: 5%;
+    right: 12%;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+
+.dashboard {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background: linear-gradient(to right top, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+    border-radius: 2rem;
+}
+
+.dashboard img {
+    width: 10%;
+    height: 10%;
+}
+
+.technologies {
+    flex: 2;
+}
+
+.technologies img {
+    width: 10%;
+    height: 10%;
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.user img {
+    width: 100%;
+    height: 50%;
+    border-radius: 50%;
+}
+
+.user h2 {
+    margin-top: -30px;
+    color: #9a09ad;
+    font-weight: 600;
+    align-items: center;
+}
+
+.user h4 {
+    margin-top: -50px;
+    align-items: center;
+    color: #d870e6;
+}
+
+.links {
+    margin-top: -50px;
+}
+
+.link {
+    color: rgb(151, 144, 144);
+    margin-top: -25px;
+    display: flex;
+    margin: 2rem 0rem;
+    padding: 1rem 5rem;
+    justify-content: center;
+}
+
+.link h3 {
+    padding: 0rem 2rem;
+}
+
+.link img {
+    justify-content: center;
+}
+
+.link:hover {
+    color: #d870e6;
+    cursor: pointer;
+}
+
+/*technologies*/
+
+.status {
+    margin-bottom: 3rem;
+    color: white;
+}
+
+.status h1 {
+    color: #9a09ad;
+    text-align: center;
+}
+
+
+.technologies {
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    margin: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.techs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background: linear-gradient(to right top, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+    border-radius: 2rem;
+  }
+
+.tech-info {
+    text-align: center;
+  }
+
+.tech1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.tech2 {
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.tech3 {
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+
+    .dashboard {
+        width: 70%;
+    }
+    .user {
+        position: relative;
+        margin-top: -180px;
+    }
+    
+    .user img {
+        margin-top: 50px;
+        position: relative;
+        width: 90%;
+        height: 100%;
+        border-radius: 50%;
+    }
+
+    .user h2 {
+        margin-top: 50px;
+        position: relative;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    
+    .user h4 {
+        margin-top: 20px;
+        position: relative;
+        align-items: center;
+    }
+
+    .links {
+        margin-top: 50px;
+    }
+
+    .link {
+        
+        display: flex;
+        position: relative;
+        margin-top: -40px;
+        
+    }
+
+    .technologies {
+        display: none;
+    }
+
+}
+
+@media (min-width: 601px) {
+    .user img {
+        margin-top: 10px;
+        position: relative;
+        width: 100%;
+        height: 50%;
+        border-radius: 50%;
+    }
+
+    .user h2 {
+        margin-top: 20px;
+        position: relative;
+        align-items: center;
+    }
+
+    .user h4 {
+        margin-top: -10px;
+        position: relative;
+        align-items: center;
+    }
+}
