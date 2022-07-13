@@ -181,6 +181,28 @@ main {
     margin-bottom: 20px;
 }
 
+.projects {
+    display: flex;
+    height: 100px;
+    width: 160px;
+    position: relative;
+    margin-top: 100px;
+    background: #9d15af;
+    border-radius: 2rem;
+}
+
+.projects h1 {
+    margin-left: 30px;
+    margin-top: 35px;
+    color: #c79ed1;
+}
+
+
+.projects h1:hover {
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+}
+
 @media (max-width: 600px) {
 
     .dashboard {
@@ -225,6 +247,10 @@ main {
     }
 
     .technologies {
+        display: none;
+    }
+
+    .projects {
         display: none;
     }
 
