@@ -212,12 +212,13 @@ main {
 
     .user {
         position: relative;
-        margin-top: -180px;
-        width: 200px;
-        height: 400px;
+        margin-top: -50px;
+        width: 150px;
+        height: 300px;
     }
     
     .user h2 {
+        width: 100px;
         margin-top: 50px;
         position: relative;
         align-items: center;
@@ -244,9 +245,9 @@ main {
 
     .techs {
         display: relative;
-        width: 100px;
-        height: 600px;
-        margin-left: -132px;
+        width: 80px;
+        height: 400px;
+        margin-left: -150px;
         align-items: center;
     } 
 
@@ -269,11 +270,12 @@ main {
     }
 
     .projects {
-        display: none;
+        display: none
     }
 
     .projects h1 {
-        display: none;
+        display: relative;
+        margin-left: -250px;
     }
         
 }
