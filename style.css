@@ -246,7 +246,7 @@ main {
     .techs {
         display: relative;
         width: 80px;
-        height: 400px;
+        height: 350px;
         margin-left: -150px;
         align-items: center;
     } 
@@ -274,8 +274,7 @@ main {
     }
 
     .projects h1 {
-        display: relative;
-        margin-left: -250px;
+        display: none;
     }
         
 }
